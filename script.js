@@ -1,0 +1,5 @@
+
+let myName;
+
+let myAge;
+

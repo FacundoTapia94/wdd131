@@ -4,11 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Facundo Tapia</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Facundo Tapia, Home Page">
+    <meta name="author" content="Facundo Tapia">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>WDD 131 - Tapia </h1>
-    <p>Quiero que funcione esto porfis ya muestrate en la pagina plis</p>
-    
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/facundo-tapia-623110241/" title="LinkedIn profile page">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p41#p41" title="My favorite scripture">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li>             
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Facundo J. Tapia</h1>
+        <div class="sections">
+            <section class="card">   
+            <h2>About Me</h2>    
+                <div class="about">        
+                    <p>Hello! My name is Facundo Tapia, I am from Jujuy, Argentina. I am a convert of the church, I was baptized in 2013. I served the Peru Huancayo mission. I like drinking mate with Zoé my girlfriend.I am currently studying Web development, and I really like it.</p>
+                    <img src="images/profile.jpg" alt="Profile picture of Facundo Tapia">
+                </div>
+                <h3>Jujuy, Argentina</h3>
+                <div class="country">
+                    <figure>
+                        <img src="images/flag-of-argentina.jpg" alt="Flag of Argentina">
+                        <figcaption>Official Flag of Argentina</figcaption>
+                    </figure>
+                    <p>Argentina,officially the Argentine Republic, is a country located in the southern cone of South America and with a claimed portion of Antarctica. It covers an area of 2,780,085 km2 (1,073,397 mi2),making it the second-largest country in South America after Brazil, the fourth-largest country in the Americas, and the eighth-largest country in the world. </p>
+                </div>
+            </section>
+            <section class="card">
+                
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li><a href="https://dev.to/" title="Dev.to Community">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" title="Smashingmagazine">Smashingmagazine</a></li>
+                    <li><a href="https://css-tricks.com/" title="CSS Tricks">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" title="W3 Schools">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" title="Udemy">Udemy</a></li>
+                    <li><a href="https://picsum.photos/" title="Lorem Picsum Image Placeholder">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+                    
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Facundo Javier Tapia | Argentina </p>
+        <div class="lastmodification">
+            <p> Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
 </body>
 </html>
