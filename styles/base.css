@@ -65,14 +65,10 @@ main {
    
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    
-    
-     
+    gap: 20px;    
 }
 
 h2 {
-    font-weight: 400;
     font-size: medium;
     font-weight: bolder;
     background-color: #1D4D72;
