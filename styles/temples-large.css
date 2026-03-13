@@ -1,0 +1,56 @@
+
+@media screen and (min-width: 500px) {
+    .pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    }
+    #menu {
+		display: none;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+        display: block;
+	}
+    header p {
+    font-size: 130%;
+    font-weight: bolder;
+    padding: 10px;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: large;
+    }
+
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    
+    }
+
+    nav a:hover {
+        border: 1px solid #fff;
+
+    }
+
+}
