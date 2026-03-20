@@ -1,5 +1,0 @@
-
-let myName;
-
-let myAge;
-

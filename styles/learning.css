@@ -1,0 +1,175 @@
+/* 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+    --border-style: 1px solid #777;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Acme', sans-serif;
+}
+
+h1 {
+	margin: 0.75rem;
+}
+
+main {
+	margin: 0.5rem;
+    border: var(--border-style);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+p {
+	margin: 1rem;
+}
+
+.datatable {
+	width: 200px;
+	margin-top: 2rem;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 100px 100px;
+	align-items: center;
+	text-align: center;
+}
+
+.col {
+	padding: 0.5rem;
+}
+
+a:active {
+    color: navy;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    color: purple;
+}
+
+.col {
+    border: 1px solid grey;
+}
+
+.col:not(:last-child) {
+    border-right: none;
+    border-bottom: none;
+}
+
+.col:not(:first-child) {
+    border-bottom: none;
+}
+
+
+
+
+
+.datatable .row:last-child {
+    background-color: darkgray;
+} */
+
+/* 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: Roboto, helvetica, sans-serif;
+	margin: 0;
+	padding: 0.5rem;
+	font-size: larger;
+	font-weight: 700;
+}
+
+section {
+	margin: 1rem 0;
+	border: 1px solid rgb(0 0 0 / 0.1);
+	padding: 0.5rem;
+	width: 760px;
+	background-color: #eee;
+}
+
+p,
+input,
+label {
+	margin: 0.25rem;
+	padding: 0.5rem;
+}
+
+.sel::selection {
+	background-color: #000;
+	color: yellow;
+}
+
+.firstline::first-line {
+	color: tomato;
+}
+.firstletter::first-letter {
+	color: navy;
+	font-size: 2rem;
+}
+.before::before {
+	content: "🎈 ";
+}
+.after::after {
+	content: " 🌮";
+}
+
+ol {
+	list-style: numeric;
+	margin-left: 3rem;
+}
+
+.counter {
+	counter-increment: paras;
+}
+
+.counter::before {
+	content: "🔸" counter(paras) ":";
+}
+
+.counter {
+	font-family: courier;
+}
+
+.mark-complete::before {
+	content: "🗝️ ";
+}
+
+ol li::marker {
+    content: "✓";
+    color: navy;
+    font-size: 2rem;
+} */
+
+
+header {
+	background-color: blue;
+	color: white;
+}

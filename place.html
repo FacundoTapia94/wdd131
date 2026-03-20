@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment Place</title>
+    <meta name="description" content="Assigment week 03, Palce, Web Dynamic Fundamentals">
+    <meta name="author" content="Facundo Tapia">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Tokyo, Japan</h1>
+    </header>
+    <main>
+        <div class="banner">
+            
+            <picture>
+                <source srcset="images/tokyo-japan-large.webp" media="(min-width: 500px)">
+                <img src="images/tokyo-japan-mobile.webp" alt="Tokyo, Japan" idth="500" height="250">
+            </picture>
+            <div class="info">
+                <article>
+                    <h2>Data</h2>
+                    <p><span>Area:</span> 2,194 km2 (847 sq mi)</p>
+                    <p><span>Population:</span> 14,254,039</p>
+                    <p><span>Capital:</span> Tokyo, Shinjuku</p>
+                    <p><span>Languages:</span> Japanese</p>
+                    <p><span>Currency:</span> Japanese Yen</p>
+                    <p><span>Time Zone:</span> GMT+9</p>
+                    <p><span>Calling Code:</span> +81</p>
+                    <p><span>Internet TLD:</span> .tokyo</p>
+                </article>
+            </div>
+            <div class="weather">
+                <article>
+                    <h2>Weather<span id="clouds">⛅</span></h2>
+                    <img src="images/weather.svg" alt="weather icon">
+                    <p><span>Temperature:</span> 10 °C</p>
+                    <p><span>Conditions:</span> Cloudy</p>
+                    <p><span>Wind:</span> 5 km/h</p>
+                    <p><span>Wind Chill: </span><span id="windChill"></span></p>
+                </article>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Facundo Javier Tapia | Argentina </p>
+        <div class="lastmodification">
+            <p> Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

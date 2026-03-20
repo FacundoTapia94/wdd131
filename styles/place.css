@@ -1,0 +1,57 @@
+
+header, body, footer {
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid grey;
+    padding: 10px;
+}
+
+picture img {
+    width: 500px;
+    height: auto;
+    border-bottom: 5px solid red;
+}
+
+article {
+    
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+.info {
+    border-bottom: 2px solid grey;
+}
+
+article span {
+    font-weight: bold;
+}
+
+h2 {
+    padding: 15px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+#clouds {
+    display: none;
+}
+
+#windChill {
+    font-weight: normal;
+}
+

@@ -1,0 +1,67 @@
+
+@media screen and (min-width: 500px) {
+    header, body, footer {
+        max-width: 1200px;
+        font-family: Arial, sans-serif;
+        justify-content: center;
+    }
+    header {
+        border-bottom: 5px solid white;
+    }
+    picture img {
+        width: 1200px;
+        height: auto;
+        border-bottom: 5px solid red;
+        border-bottom: none;
+    }
+    .info {
+        border-bottom: none;
+        background-color: white;
+        position: absolute;
+        top: 150px;
+        right: 1200px;
+        padding: 20px;
+        opacity: 0.9;
+        width: 210px;
+
+    }
+
+    h2 {
+        
+        background-color: red;
+        color: white;
+        width: 210px;
+        
+
+    
+    }
+    .weather {
+        background-color: white;
+        position: absolute;
+        top: 600px;
+        right: 400px;
+        padding: 20px;
+        opacity: 0.9;
+        width:210px
+    }
+
+    .weather img {
+        display: none;
+    }
+    article {
+        background-color: #fff;
+        margin: 0 auto;
+        text-align:center
+
+    }
+
+    #windChill {
+        font-weight: normal;
+    }
+
+    #clouds {
+        display: contents;
+    }
+
+
+}
