@@ -1,12 +1,17 @@
 
+:root {
+    --main-color: darkred;
+    --second-color: white;
+}
+
 header, body, footer {
     max-width: 500px;
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: red;
-    color: white;
+    background-color: var(--main-color);
+    color: var(--second-color);
     text-align: center;
     border-bottom: 5px solid grey;
     padding: 10px;
@@ -15,12 +20,12 @@ header {
 picture img {
     width: 500px;
     height: auto;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid var(--main-color);
 }
 
 article {
     
-    background-color: #fff;
+    background-color: var(--second-color);
     margin: 0 auto;
     text-align: center;
     
@@ -40,8 +45,8 @@ h2 {
 }
 
 footer {
-    background-color: red;
-    color: white;
+    background-color: var(--main-color);
+    color: var(--second-color);
     padding: 20px;
     display: block;
     text-align: center;
