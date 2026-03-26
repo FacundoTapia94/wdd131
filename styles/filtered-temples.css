@@ -52,6 +52,10 @@ img {
     width: 250px;
     height: auto;
     justify-items: center;
+    box-shadow: 0 0 10px gray;
+    margin-top: 16px
+
+
 }
 
 figcaption {
@@ -118,11 +122,6 @@ section {
     font-size: medium;
 }
 
-img {
-    box-shadow: 0 0 10px gray;
-    margin-top: 16px;
-
-}
 
 span {
     font-weight: bold;
