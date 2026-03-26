@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+/* .picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+}
+
+img {
+    padding: 10px;
+    
+} */
+
+.picture {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
