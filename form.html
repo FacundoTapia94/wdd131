@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Assigment</title>
-    <meta name="description" content="Form Assigment, Dynamic Web Fundamentals">
+    <meta name="description" content="Form Assigment, Dynamic Web Fundamentals, forms, review, assignment week05">
     <meta name="author" content="Facundo Tapia">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/form-large.css">
@@ -18,22 +18,22 @@
         <form method="get" action="review.html" class="wf1">
             <fieldset>
                 <p>Product Name</p>
-                <select name="selection" id="selection" required>
+                <label><select name="selection" id="selection" required>
                     <option value="" disabled selected>Select a Product ...</option>
 
-                </select>
+                </select></label>
 
                 <p>Overall Rating</p>
                 <label><input type="radio" id="rating1" name="rating" value="☆" required>⭐</label>
-                <label><input type="radio" id="rating2" name="rating" value="☆☆">⭐⭐</label>
-                <label><input type="radio" id="rating3" name="rating" value="☆☆☆">⭐⭐⭐</label>
-                <label><input type="radio" id="rating4" name="rating" value="☆☆☆☆">⭐⭐⭐⭐</label>
-                <label><input type="radio" id="rating5" name="rating" value="☆☆☆☆☆">⭐⭐⭐⭐⭐</label>
+                <label><input type="radio" id="rating2" name="rating" value="☆☆" required>⭐⭐</label>
+                <label><input type="radio" id="rating3" name="rating" value="☆☆☆" required>⭐⭐⭐</label>
+                <label><input type="radio" id="rating4" name="rating" value="☆☆☆☆" required>⭐⭐⭐⭐</label>
+                <label><input type="radio" id="rating5" name="rating" value="☆☆☆☆☆" required>⭐⭐⭐⭐⭐</label>
 
 
 
                 <p>Date of Installation</p>
-                <input type="date" id="date" name="date" required>
+                <label></label><input type="date" id="date" name="date" required></label>
 
                 <p>Which features did you find useful in the product?
                     (Check all that apply)
@@ -45,7 +45,7 @@
                 <label><input type="checkbox" id="feature4" name="features" value="desing">Design</label>
 
                 <p>Written review (optional)</p>
-                <textarea id="review" name="review" rows="4" cols="40"></textarea>
+                <label><textarea id="review" name="review" rows="4" cols="40"></textarea></label>
 
                 <p>User Name (optional)</p>
                 <input type="text" id="user" name="user">
