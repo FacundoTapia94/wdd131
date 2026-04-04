@@ -1,0 +1,29 @@
+
+h1 {
+    background-color: pink;
+    color: purple;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+}
+
+main {
+    background-color: lightblue;
+}
+
+img {
+    
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    background-color: pink;
+    color: purple;
+}
