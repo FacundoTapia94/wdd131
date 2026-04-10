@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="description" content="Dynamic Web Fundamentals, Project, week06, webpage proposal, breaking">
+    <meta name="author" content="Facundo Tapia">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <script src="scripts/project.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header> 
+        <h1>Breaking Worldwide</h1>
+        <button id="menu"></button>        
+        <nav>
+            <ul class="navigation">           
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="history.html" title="History">History</a></li>
+                <li><a href="moves.html" title="Moves and tricks">Moves</a></li>
+                <li><a href="competitions.html" title="Competitions">Competitions</a></li> 
+            </ul>           
+        </nav>
+    </header>
+    <main>
+        <h2 id="title">Title</h2>
+        <div id="subtitles">subtitle</div>
+        <div class="img-home">
+            <picture>
+                <source srcset="images/home1-large.webp" media="(min-width: 500px)">
+                <img src="images/home1-small.webp" alt="Break Dancing Move" width="500" height="400">
+            </picture>
+        </div>
+        <h3>Free Break Dancing Knowledge</h3>
+        <p>The site provides you with information about the origins, moves, tricks, and competitions that already exist in break dancing world.
+           Please be welcome, we are grateful for your visit and we hope that you enjoy and learn much of Break Dancing. Our intention is that you feel confortable while learning something new. As we mencioned previosuly,
+           we offer to you some history about the origins of this amazing dance, some of its moves and tricks, and information about competitios. Please enjoy.   
+        </p>
+        
+
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Breaking Worldwide | Argentina </p>
+        <div class="lastmodification">
+            <p>Last Updated Date: <span id="lastModified"></span></p>
+        </div>
+        <p>Number of visits: <span class="visits"></span></p>
+    </footer>
+
+    
+</body>
+</html>

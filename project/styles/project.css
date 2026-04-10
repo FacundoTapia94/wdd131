@@ -1,0 +1,154 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #00008B;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+body {
+    background-color: #ADD8E6;
+}
+
+h1 {
+    background-color: #00008B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+img {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    
+}
+
+h2 {
+    background-color: #ADD8E6;
+    color: #00008B;
+    padding: 10px;
+    text-align: center;
+}
+
+#subtitles {
+    background-color: #ADD8E6;
+    color: #00008B;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+h3 {
+    background-color: #ADD8E6;
+    color: #00008B;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer {
+    background-color: #00008B;
+    color: #fff;
+    padding: 20px;
+
+}
+
+nav {
+    
+    background-color: #00008B;
+    color: #fff;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	background-color: #00008B;
+	color: #fff;
+    justify-content: center;
+    border: 0;
+}
+
+
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.open a {
+    display: block;
+}
+
+.navigation a:hover {
+	background-color: #ccc;
+	color: #00008B;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    padding: 0;
+    padding-bottom: 40px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    line-height: 1;
+
+
+}
+
+footer a {
+    color: #fff;
+    text-align: center;
+}
